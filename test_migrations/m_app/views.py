@@ -20,8 +20,7 @@ def my_fun():
     return c
 print(my_fun())
 
-print('////////////////////')
+def test():
 
-def demo():
-    name="kavya"
-    return name
+    print("testing")
+test()
