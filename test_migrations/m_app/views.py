@@ -21,3 +21,7 @@ def my_fun():
 print(my_fun())
 
 print('////////////////////')
+
+def demo():
+    name="kavya"
+    return name
