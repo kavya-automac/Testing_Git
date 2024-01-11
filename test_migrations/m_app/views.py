@@ -1,6 +1,12 @@
 from django.shortcuts import render
 
 # Create your views here.
+
+def add(a,b):
+    c=a+b
+    return c
+print(add(2,3))
+
 def my_fun():
 
     print("adding print statement-neeraj")
@@ -13,3 +19,4 @@ def my_fun():
     print('c',c,a,b)
     return c
 print(my_fun())
+
