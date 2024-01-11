@@ -22,3 +22,10 @@ class Role2(models.Model):
 
     def __str__(self):  # to display the role name in admin page
         return self.name2
+
+class test(models.Model):
+    objects = models.Manager()
+    testing=models.CharField(max_length=100,null=False)
+
+    def __str__(self):  # to display the role name in admin page
+        return self.testing

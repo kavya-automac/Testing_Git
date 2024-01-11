@@ -20,3 +20,7 @@ def my_fun():
     return c
 print(my_fun())
 
+def test():
+
+    print("testing")
+test()
