@@ -56,7 +56,8 @@ class student(models.Model):
 
 class demo(models.Model):
     objects = models.Manager()
-    emp_name=models.CharField(max_length=100,null=False)
+    demo1=models.CharField(max_length=100,null=False)
+    demo2=models.CharField(max_length=100,null=False)
 
     def __str__(self):  # to display the role name in admin page
         return self.emp_name
