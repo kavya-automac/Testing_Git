@@ -29,3 +29,10 @@ class test(models.Model):
 
     def __str__(self):  # to display the role name in admin page
         return self.testing
+
+class test2(models.Model):
+    objects = models.Manager()
+    testing2=models.CharField(max_length=100,null=False)
+
+    def __str__(self):  # to display the role name in admin page
+        return self.testing2
