@@ -36,3 +36,11 @@ class test2(models.Model):
 
     def __str__(self):  # to display the role name in admin page
         return self.testing2
+
+class test3(models.Model):
+    objects = models.Manager()
+    testing3=models.CharField(max_length=100,null=False)
+
+    def __str__(self):  # to display the role name in admin page
+        return self.testing3
+
