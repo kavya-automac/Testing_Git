@@ -40,6 +40,9 @@ class test2(models.Model):
 class test3(models.Model):
     objects = models.Manager()
     testing3=models.CharField(max_length=100,null=False)
+    testing4=models.CharField(max_length=100,null=True)
+
+
 
     def __str__(self):  # to display the role name in admin page
         return self.testing3
